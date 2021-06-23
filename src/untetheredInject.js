@@ -19,8 +19,8 @@
   Object.defineProperty(window, 'localStorage', getLocalStoragePropertyDescriptor());
 
   const branchURLs = {
-    'release': 'https://goosemod-api.netlify.app/inject.js',
-    'dev': `https://github.com/GooseMod/GooseMod/releases/download/dev/index.js?_=${Date.now()}`
+    'release': `https://github.com/smartfrigde/HamsterMod/releases/download/dev/index.js?_=${Date.now()}`,
+    'dev': `https://github.com/smartfrigde/HamsterMod/releases/download/dev/index.js?_=${Date.now()}`
   };
 
   const branch = localStorage.getItem('goosemodUntetheredBranch') || 'release';
